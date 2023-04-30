@@ -5,6 +5,8 @@ Utilize /root/terraform_challenge directory to store your Terraform configuratio
 
 Inspect the requirements in detail by clicking on the icons of the interactive architecture diagram on the right and complete the tasks. Once done click on the Check button to validate your work.
 
+![Screenshot from 2023-04-30 17-30-00](https://user-images.githubusercontent.com/46055709/235359631-f177a3d6-14a2-46b7-b96b-e62bfe59b42d.png)
+
 ### terraform && provuder
 
 * Configure terraform and provider settings within provider.tf file with following specifications:
