@@ -8,12 +8,13 @@ Inspect the requirements in detail by clicking on the icons of the interactive a
 
 ### docker_image
 
+#### php-httpd-image
 * Create a terraform resource named php-httpd-image for building docker image with following specifications:
 * Image name: php-httpd:challenge
 * Build context: lamp_stack/php_httpd
 * Labels: challenge: second
 
-
+#### mariadb-image 
 * Create a terraform resource named mariadb-image for building docker image with following specifications:
 * Image name: mariadb:challenge
 * Build context: lamp_stack/custom_db
@@ -32,6 +33,7 @@ Inspect the requirements in detail by clicking on the icons of the interactive a
 
 ### docker_container
 
+#### php-httpd docker container
 * Define a terraform resource php-httpd for creating docker container with following specification:
 * Container Name: webserver
 * Hostname: php-httpd
@@ -43,7 +45,7 @@ Inspect the requirements in detail by clicking on the icons of the interactive a
 * Labels: challenge: second
 * Create a volume with host_path /root/code/terraform-challenges/challenge2/lamp_stack/website_content/ and container_path /var/www/html within webserver container.
 
-
+#### phpmyadmin docker container
 * Define a terraform resource phpmyadmin for docker container with following configurations:
 * Container Name: db_dashboard
 * Image Used: phpmyadmin/phpmyadmin
@@ -56,7 +58,7 @@ Inspect the requirements in detail by clicking on the icons of the interactive a
 * Establish link based connectivity between db and db_dashboard containers (Deprecated)
 * Explicitly specify a dependency on mariadb terraform resource
 
-
+#### mariadb docker container
 * Define a terraform resource mariadb for creating docker container with following specification:
 * Container Name: db
 * Image Used: mariadb:challenge
