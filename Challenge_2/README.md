@@ -4,6 +4,8 @@ In this challenge we will implement a simple LAMP stack using terraform and dock
 
 Inspect the requirements in detail by clicking on the icons of the interactive architecture diagram on the right and complete the tasks. Once done click on the Check button to validate your work.
 
+![Screenshot from 2023-04-30 17-37-32](https://user-images.githubusercontent.com/46055709/235359665-ceeb7085-b6c9-4ce0-a6a1-7ea2e4b10165.png)
+
 ### docker_image
 
 * Create a terraform resource named php-httpd-image for building docker image with following specifications:
