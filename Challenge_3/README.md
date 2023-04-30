@@ -5,6 +5,8 @@ Utilize /root/terraform-challenges/project-citadel directory to store your Terra
 
 Inspect the requirements in detail by clicking on the icons of the interactive architecture diagram on the right and complete the tasks. Once done click on the Check button to validate your work.
 
+![Screenshot from 2023-04-30 17-49-50](https://user-images.githubusercontent.com/46055709/235359691-550f5aa6-d4bd-4180-8d0c-d2dfdcbdd331.png)
+
 ### aws_key_pair
 
 * Create a terraform key-pair citadel-key with key_name citadel.
